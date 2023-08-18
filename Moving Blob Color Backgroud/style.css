@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+  }
+  
+  .card {
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    /*   -webkit-filter: contrast(20);
+      filter: contrast(20); */
+  }
+  
+  .card > .blob {
+    background: #85def2;
+    height: 25%;
+    width: 12.5%;
+    border-radius: 100%;
+    filter: blur(15px);
+      /* mix-blend-mode: multiply; */
+      /* mix-blend-mode: color; */
+    position: absolute;
+  }
+  

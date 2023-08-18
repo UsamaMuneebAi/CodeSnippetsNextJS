@@ -1,8 +1,6 @@
 "use client";
-
 import anime from "animejs";
 import { useEffect } from "react";
-
 export default function Home() {
   useEffect(() => {
     const rnd = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
